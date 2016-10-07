@@ -1,0 +1,66 @@
+body {
+    height: 100%;
+    background-image: url("../img/fondo.jpg");
+    display: inline;
+}
+
+.navbar{
+  background-color: darkred;
+  margin: 0px;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: white;
+  text-shadow: 1px 1px 1px ;
+  font-size: 18px;
+}
+
+.carousel-indicators li{
+  border: 1px solid black;
+}
+
+.dropdown-toggle{
+  box-shadow: 2px 2px 5px;
+  margin: 6px 0 0 3px;
+}
+.form-control{
+  border-radius: 15px 0 0 15px;
+  box-shadow: 2px 2px 5px;
+}
+.logo{
+  max-width: 45px;
+  position: relative;
+  float: left;
+  padding: 3px;
+}
+
+.item img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.carousel-caption h2 a {
+  height: 100%;
+  float:center;
+  font-size: 18px;
+  color: white;
+  background-color: red;
+  padding: 3px 8px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid white;
+  box-shadow: 2px 2px black;
+}
+
+.carousel-caption h2 a:hover {
+  background-color: #1478b1;
+  color: white;
+}
+
+.dropdown-menu li a{
+  font-weight: bold;
+}
