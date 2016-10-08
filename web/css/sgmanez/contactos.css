@@ -1,0 +1,34 @@
+
+.container > header {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 2.875em 1.875em 1.875em;
+}
+
+.container > header h1 {
+	font-size: 2.125em;
+	line-height: 1.3;
+	margin: 0 auto 0 auto;
+	float: center;
+	font-weight: 400;
+  color: red;
+  text-shadow: 0 3px 4px black;
+}
+
+.main {
+	width: 100%;
+	max-width: 100em;
+}
+
+@media screen and (max-width: 55em) {
+
+	.container > header h1,
+	.container > header nav {
+		float: none;
+	}
+
+	.container > header > span,
+	.container > header h1 {
+		text-align: center;
+	}
